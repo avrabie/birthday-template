@@ -21,7 +21,7 @@
 
 		p, pre {
 			color: #4D4D4D;
-			font-size: 1em;
+			font-size: 1.5rem;
 			margin-top: 30px;
 		}
 
@@ -36,7 +36,22 @@
 			margin-top: 50px;
 		}
 
+		.ruRacing {
+			width: 25%;
+			margin-top: 50px;
+		}
+
 	</style>
+
+	<script>
+		function showCode(x) {
+			x.src="pics/RuRacing.png"
+		}
+
+		function normalImg(x) {
+			x.src="https://media.tenor.com/wgHpbVb9lGkAAAAM/birthday-cake-happy-birthday.gif"
+		}
+	</script>
 </head>
 <body>
 <h1>Happy Birthday, Vlad!</h1>
@@ -54,7 +69,9 @@ Don't let it ruin this special day!
 Don't swear too much or feel too sad
 It's your Birthday so be glad.
 	</pre>
-<img class="animation" src="https://media.tenor.com/wgHpbVb9lGkAAAAM/birthday-cake-happy-birthday.gif" alt="animation">
+<img class="animation" src="https://media.tenor.com/wgHpbVb9lGkAAAAM/birthday-cake-happy-birthday.gif" alt="animation" onmouseover="showCode(this)" onmouseout="normalImg(this)">
 <div id="balloon-container"></div>
+
+
 </body>
 </html>
