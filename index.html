@@ -4,15 +4,20 @@
 	<title>Happy Birthday Vlad!</title>
 	<style>
 		body {
-			background-color: #F7D9E3;
 			font-family: Arial, sans-serif;
 			text-align: center;
+			background: rgb(238,174,202);
+			background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 		}
 
 		h1 {
 			color: #4D4D4D;
 			font-size: 3em;
-			margin-top: 50px;
+			margin: 0;
+			padding: 30px;
+			background-image: url("https://media.tenor.com/W8HRcBEoDtAAAAAC/balloons-floating.gif");
+			background-repeat: no-repeat;
+			background-size: cover;
 		}
 
 		p, pre {
@@ -25,13 +30,18 @@
 			width: 300px;
 			margin-top: 50px;
 		}
+
+		.animation {
+			width: 30%;
+			height: 30%;
+			margin-bottom: 50px;
+		}
+
 	</style>
 </head>
 <body>
-	<h1>Happy Birthday Vlad!</h1>
-	<img src="pics/vlad.png" alt="Vlad pe Motogonka">
-
-
+<h1>Happy Birthday Vlad!</h1>
+<img src="pics/vlad.png" alt="Vlad pe Motogonka">
 	<pre>
 May your thesis be as strong as steel,
 And your defense : an absolute thrill.
@@ -45,6 +55,7 @@ Don't let it ruin this special day!
 Don't swear too much or feel too sad
 It's your Birthday so be glad.
 	</pre>
-
+<img class="animation" src="https://media.tenor.com/wgHpbVb9lGkAAAAM/birthday-cake-happy-birthday.gif" alt="animation">
+<div id="balloon-container"></div>
 </body>
 </html>
